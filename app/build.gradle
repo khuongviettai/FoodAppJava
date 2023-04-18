@@ -5,12 +5,12 @@ plugins {
 
 android {
     compileSdkVersion 31
-    buildToolsVersion "30.0.0"
+    buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "com.khuongviettai.foodorder"
-        minSdkVersion 21
         targetSdkVersion 31
+        minSdkVersion 16
         versionCode 1
         versionName "1.0"
 
@@ -31,6 +31,7 @@ android {
     buildFeatures {
         viewBinding true
     }
+    namespace 'com.khuongviettai.foodorder'
 }
 
 dependencies {
